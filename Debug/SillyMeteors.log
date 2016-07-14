@@ -1,0 +1,27 @@
+﻿Build started 1/4/2015 8:00:01 PM.
+     1>Project "D:\Documents\Projects\C++\Games\SillyMeteors\SillyMeteors\SillyMeteors.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt base.cpp game.cpp main.cpp Meteor.cpp scenemanager.cpp scenes\GameScene.cpp scenes\LevelScene.cpp Sprite.cpp Spritesmap.cpp
+         Spritesmap.cpp
+     1>d:\documents\projects\c++\games\sillymeteors\sillymeteors\sprite.hpp(4): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         Sprite.cpp
+     1>d:\documents\projects\c++\games\sillymeteors\sillymeteors\sprite.cpp(2): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         LevelScene.cpp
+         GameScene.cpp
+     1>d:\documents\projects\c++\games\sillymeteors\sillymeteors\scenes\scene.hpp(4): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         scenemanager.cpp
+     1>d:\documents\projects\c++\games\sillymeteors\sillymeteors\scenemanager.hpp(9): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         Meteor.cpp
+     1>d:\documents\projects\c++\games\sillymeteors\sillymeteors\meteor.hpp(5): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         main.cpp
+     1>d:\documents\projects\c++\games\sillymeteors\sillymeteors\game.hpp(4): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         game.cpp
+     1>d:\documents\projects\c++\games\sillymeteors\sillymeteors\game.cpp(1): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         base.cpp
+     1>d:\documents\projects\c++\games\sillymeteors\sillymeteors\base.cpp(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "D:\Documents\Projects\C++\Games\SillyMeteors\SillyMeteors\SillyMeteors.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.53

@@ -1,0 +1,11 @@
+More Important
+- Update meteor code to move around the screen rather than grow in size
+    - bump against the wall
+    - spawn with random direction
+- Add collision for meteors where they bump into eachother
+
+Less Important
+- Create Exit Button on GameScene + Gameover Scene
+    - so maybe make this into a class for reuse or update sprite
+    class to include collision ex.: sprite.clicked() and called
+    in the events function? (returns boolean)
